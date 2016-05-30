@@ -211,6 +211,23 @@ if __name__ == '__main__':
     for u, vs in edges.iteritems():
         for v in vs:
             g.add_edge(u, v)
+   
+   
+    # personalization values obtained
+    personalization = {
+
+        1: [],
+        2: [],
+        3: [],
+        4: [],
+        5: [],
+        6: [],
+        7: [],
+        8: [],
+        9: [],
+        10: []
+
+    }
 
     scores = nx.pagerank(g)
     print '# PageRank'
